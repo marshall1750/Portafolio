@@ -85,4 +85,4 @@ Interesado en desarrollarme en áreas como:
 
 ## 📫 Contacto
 
-- 💼 LinkedIn: https://linkedin.com/in/TU-PERFIL
+- 💼 LinkedIn: www.linkedin.com/in/marshall-flores-proaño-1b8a4a2a3
