@@ -1,0 +1,47 @@
+Contraseñas
+Acceso al modo exec usuario (>) y consola: redcisco2810
+Acceso al modo exec privilegiado (#): marshall
+Acceso remoto (SSH o Telnet): remcisco
+
+---------------------------------------------
+vlan 41
+name Red_Laboratorios_CC_Amb
+vlan 42
+name Red_Camaras_Biometricos_CC_Amb
+vlan 43
+name Red_Decanos_CC_Amb
+vlan 44
+name Red_Administrativos_CC_Amb
+vlan 99
+name Nativa
+exit
+
+
+interface fastEthernet 0/1
+switchport mode access
+switchport access vlan 44
+no shutdown
+exit
+interface gigabitEthernet 0/1
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan all
+no shutdown
+exit
+
+
+--------------------------------------------
+
+interface gigabitEthernet 1/0/1
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan all
+no shutdown
+exit
+
+interface range gigabitEthernet 1/0/21-24
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan all
+no shutdown
+exit
