@@ -67,7 +67,7 @@ Garantizar conectividad eficiente, escalabilidad y segmentación adecuada en un 
 
 - Diseño de redes LAN segmentadas
 - Configuración de VLANs y routing
-- Implementación de redes inalámbricas empresariales
+- Implementación de redes inalámbricas
 - Análisis y modelado con Machine Learning
 - Resolución de problemas en entornos de red
 
